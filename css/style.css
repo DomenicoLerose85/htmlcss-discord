@@ -8,11 +8,8 @@
 
 /* header */
 
-/* .debug{
-    border: 1px solid black;
-} */
 body{
-    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-family: Whitney,Helvetica;
     font-size: 20px;
     color: #23272a;
 }
@@ -35,6 +32,7 @@ body{
 }
 
 /* header */
+
 header{
     height:80px;
     line-height: 80px;
@@ -65,16 +63,19 @@ nav ul li{
     padding: 10px 14px;
     background-color: #fff;
     font-size: 14px;
-    color: #23272a;
+    color: #232628;
     display: inline;
 }
 
-a{
+a {
     color: white;
+    font-size: 17px;
+    font-weight: 50px;
     margin-right: 20px;
     text-decoration: none;
 }
 /* main */
+
 #jumbotron{
     min-height: 546px;
     background-image: url(../img/jumbo.png);
@@ -85,4 +86,17 @@ a{
     text-align: center;
     color: #ffffff;
     padding-top:100px;
+    padding-left: 238px;
 } 
+
+h1{
+    font-weight: bold;
+    font-size: 50px;
+    padding-bottom: 25px;
+}
+
+.header_p{
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 25px;
+}
